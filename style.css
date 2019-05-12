@@ -1,0 +1,109 @@
+
+/*Overall page style
+*/
+body {
+  min-height: 100%;
+  font-family: 'Audiowide', cursive;
+  text-align: left; 
+  background: white;
+  margin: 0 auto;
+  color: rgb(49, 46, 46);
+  
+}
+
+/*The main site includes a grid column to align
+all images neatly*/
+  main{
+    margin: 20px;
+    padding: 20px;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  	column-count: 2;
+    column-gap: 20px;
+
+  }
+
+@media (max-width: 1900px) {
+img{
+  
+padding: 30px;
+margin: 30px;
+display: block;
+margin-left: auto;
+margin-right: auto;
+width:80%;
+}
+
+
+
+
+ 
+p{
+  padding: 5px;
+  margin: 5px;
+  line-height: 2;
+  
+}
+
+/*Header styling - Content Shop
+*/
+header {
+  background: #0000FF;
+  color: orange;
+  padding: 20px 10px;
+}
+
+
+ul {
+  text-align: center;
+  font-size: 50px;
+  margin: 0;
+  padding: 0;
+}
+
+li a {
+  
+  font-size: 20px;
+  color: orange;
+  list-style: none;
+  line-height: 30px;
+}
+
+/*Hover styling for when the mouse is placed over
+any of the navigation links*/
+
+a:hover {
+  color: red;
+}
+
+header h1, nav {
+  display: inline-block;
+  color: white;
+}
+
+
+
+
+header h1 {
+  margin: 20px;
+  padding: 20px;
+  width: 100%;
+}
+
+header li {
+  display: inline;
+}
+
+h1 {
+  margin: 20px;
+  padding: 20px;
+}
+
+
+/*Footer styling
+*/
+footer{
+  color: white;
+  background-color: blue;
+  text-align: left;
+  letter-spacing: 3px;
+}

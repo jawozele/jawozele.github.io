@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css?family=Audiowide');
+
+
+
+html, body {
+  min-height: 100%;
+  font-family: 'Audiowide', cursive;
+  background: white;
+  margin: 0 auto;
+  color: rgb(49, 46, 46);
+}
+
+p{
+  text-align: center;
+  padding: 2em;
+  margin: 2em;
+  line-height: 2;
+  
+}
+
+header {
+  background: #0000FF;
+  color: orange;
+  padding: 20px 10px;
+}
+
+
+
+img {
+padding: 30px;
+margin: 30px;
+display: block;
+margin-left: auto;
+margin-right: auto;
+width:60%;
+}
+
+
+/*Styling for the contact form on contact.html
+*/
+@media (min-width: 700px) {
+
+input[type="text"], input[type="email"], textarea {
+  padding: 20px;
+  width: 80%;
+  height: 80%;
+
+}
+}
+
+/*Styling for the width and height of the contact form
+to enable the ease of data input*/
+@media (min-width: 1281px) {
+
+form {
+  margin: 40px;
+  padding: 40px;
+  width: 80%;
+  height: 80%;
+}
+}
+ul {
+  text-align: center;
+  font-size: 50px;
+  margin: 0;
+  padding: 0;
+}
+
+li a {
+
+  font-size: 20px;
+  color: orange;
+  list-style: none;
+  line-height: 30px;
+}
+
+/*Styling for hover
+*/a:hover {
+  color: red;
+}
+
+
+
+/*Styling for contact form labels such as Name, Email and Message
+*/.inline label {
+  display: inline-block;
+  width: 100px;
+}
+
+header h1, nav {
+  display: inline-block;
+  color: white;
+}
+
+header h1 {
+  margin: 20px;
+  padding: 20px;
+  width: 100%;
+}
+
+header li {
+  display: inline;
+}
+
+h1 {
+  margin: 20px;
+  padding: 20px;
+}
+
+
+/*Footer styling
+*/footer{
+  color: white;
+  background-color: blue;
+  text-align: left;
+  letter-spacing: 3px;
+}
