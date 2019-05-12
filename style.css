@@ -1,9 +1,7 @@
 
 /*Overall page style
 */
-*,
-*:before,
-*:after
+
 body {
   min-height: 100%;
   font-family: 'Audiowide', cursive;
